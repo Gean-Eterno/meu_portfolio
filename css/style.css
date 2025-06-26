@@ -302,19 +302,18 @@ p {
         align-items: center;
     }
 
-    .nav {
+   .nav {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px 15px;
+    justify-content: space-between;
+    padding: 10px 20px;
     box-sizing: border-box;
-    gap: 10px;
+    gap: 5px;
 }
 
+
 nav a {
-    display: inline-block;
     font-size: 14px;
-    padding: 5px 10px;
+    padding: 5px 8px;
     margin: 0;
 }
 
