@@ -303,18 +303,22 @@ p {
     }
 
    .nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px 10px;
     box-sizing: border-box;
-    gap: 5px;
+    width: 100%;
+    gap: 0;
 }
 
 
 nav a {
+    text-align: center;
     font-size: 14px;
-    padding: 5px 8px;
-    margin: 0;
+    padding: 10px 0;
+    text-decoration: none;
+    border: red 1px solid transparent;
+
 }
 
 
