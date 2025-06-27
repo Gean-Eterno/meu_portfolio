@@ -302,25 +302,23 @@ p {
         align-items: center;
     }
 
-   .nav {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    padding: 10px 10px;
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px 20px;
     box-sizing: border-box;
-    width: 100%;
-    gap: 0;
-}
+    background-color: #121212;
+  }
 
-
-    nav a {
-    text-align: center;
+  nav a {
     font-size: 14px;
-    padding: 10px 0;
+    color: whitesmoke;
     text-decoration: none;
-    border: red 1px solid transparent;
-}
-
-
+    padding: 8px 10px;
+    font-family: "Roboto", sans-serif;
+  }
+  
     .container {
         max-width: 95%;
     }
