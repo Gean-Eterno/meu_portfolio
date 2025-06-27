@@ -280,7 +280,6 @@ p {
     color: #b366ff;
 }
 
-
 .projeto a {
     text-decoration: none;
     color: #d0d0d0;
@@ -306,12 +305,12 @@ p {
         display: flex;
         justify-content: center;
         gap: 8px;
-        padding: 10px 5px; /* Removi o asterisco que estava aqui */
+        padding: 10px 5px;
         width: 100%;
         box-sizing: border-box;
     }
   
-    .nav a {
+    nav a {
         margin: 0;
         padding: 5px 8px;
         font-size: 14px;
@@ -329,8 +328,8 @@ p {
     }
 
     #foto {
-        width: 150px;
-        height: 150px;
+        width: 160px; /* Aumentei levemente o tamanho da imagem no celular */
+        height: 160px; /* Aumentei levemente o tamanho da imagem no celular */
     }
 
     .projetos-container {
