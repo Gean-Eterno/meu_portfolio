@@ -302,23 +302,23 @@ p {
         align-items: center;
     }
 
-  .nav {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 10px 20px;
-    box-sizing: border-box;
+    .nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px 15px;
     background-color: #121212;
+    box-sizing: border-box;
   }
 
   nav a {
+    text-align: center;
     font-size: 14px;
     color: whitesmoke;
+    padding: 5px 0;
     text-decoration: none;
-    padding: 8px 10px;
     font-family: "Roboto", sans-serif;
   }
-  
+
     .container {
         max-width: 95%;
     }
