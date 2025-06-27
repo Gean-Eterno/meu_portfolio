@@ -302,7 +302,8 @@ p {
         align-items: center;
     }
 
-    .nav {
+    @media (max-width: 768px) {
+  .nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 10px 15px;
@@ -310,14 +311,17 @@ p {
     box-sizing: border-box;
   }
 
-  nav a {
-    text-align: center;
+  .nav a {
     font-size: 14px;
     color: whitesmoke;
-    padding: 5px 0;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    display: block;
   }
+}
 
     .container {
         max-width: 95%;
